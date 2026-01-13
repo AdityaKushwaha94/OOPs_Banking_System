@@ -1,12 +1,12 @@
 package models;
 
-public class user {
-    private int userID;
-    private String name;
-    private int email;
-    private int phone;
+public class User{
+    private final int userID;
+    private final String name;
+    private final String email;
+    private final String phone;
 
-    public user(int userID,String name,int email,int phone){
+    public User(int userID,String name,String email,String phone){
         this.userID=userID;
         this.name=name;
         this.email=email;
@@ -14,6 +14,18 @@ public class user {
         
 
     }
+     public int getuserId(){
+        return userID;
+     }
+      public String getName(){
+        return name;
+      }
+      public String getemail(){
+        return email;
+      }
+      public String getphone(){
+        return phone;
+      }
 
 	
 }
