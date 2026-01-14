@@ -4,7 +4,7 @@ import interfaces.NotificationService;
 
 public class BankService {
 
-    private NotificationService notificationService;
+    private final NotificationService notificationService;
 
     public BankService(NotificationService notificationService) {
         this.notificationService = notificationService;

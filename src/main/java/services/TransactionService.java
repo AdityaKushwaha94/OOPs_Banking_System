@@ -1,12 +1,12 @@
-package service;
+package services;
 
-import model.Transaction;
+import models.Transaction;
 import java.util.ArrayList;
 import java.util.List;
 
 public class TransactionService {
 
-    private List<Transaction> transactions = new ArrayList<>();
+    private final List<Transaction> transactions = new ArrayList<>();
 
     public void addTransaction(Transaction transaction) {
         transactions.add(transaction);

@@ -1,6 +1,6 @@
 package services;
 
-import model.Account;
+import models.Account;
 
 public class AccountService {
 
@@ -13,6 +13,6 @@ public class AccountService {
     }
 
     public void applyInterest(Account account) {
-        account.calculateInterest();
+        account.calculateinterest();
     }
 }
