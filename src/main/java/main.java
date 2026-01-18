@@ -1,6 +1,13 @@
 import models.User;
 import models.SavingsAccount;
 
+class notice{
+    public String name="aditua";
+    public notice(){
+        System.out.println("name"+name);
+    }
+}
+
 public class Main {
     public static void main(String[] args){
         User u=new User(1,"aditya","hello@example.com","1234567890");
