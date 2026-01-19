@@ -1,0 +1,23 @@
+# OOPs Banking System
+
+A simple banking system implementation using Object-Oriented Programming principles.
+
+## Features
+
+- Account creation and management
+- Deposit and withdrawal operations
+- Balance inquiry
+- Transaction history
+- Multiple account types support
+
+## Getting Started
+
+### Prerequisites
+- Programming language runtime (specify based on your implementation)
+
+### Installation
+1. Clone the repository
+2. Navigate to the project directory
+3. Run the main application file
+
+## Usage
